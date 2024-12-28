@@ -1,0 +1,25 @@
+.wapperLayout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    .content {
+        display: flex;
+        flex-grow: 1; // Đảm bảo content chiếm hết phần còn lại
+        overflow: hidden;
+
+        .menu {
+            max-width: 400px; 
+            height: 100%;
+            background: #f4f4f4;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .outlet {
+            flex-grow: 1; // Nội dung mở rộng
+            padding: 16px;
+            overflow-y: auto;
+            background: #fff;
+        }
+    }
+}
+

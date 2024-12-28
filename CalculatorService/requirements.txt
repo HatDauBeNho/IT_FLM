@@ -1,0 +1,6 @@
+requests
+SQLAlchemy
+configparser
+threaded
+psycopg2
+python-dotenv

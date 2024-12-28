@@ -1,0 +1,44 @@
+.dashboard-container {
+  display: flex; /* Dùng Flexbox thay vì grid */
+  flex-wrap: wrap; /* Cho phép các thẻ xuống hàng khi không đủ chỗ */
+  gap: 20px; /* Khoảng cách giữa các thẻ */
+  padding: 20px;
+
+  .data-dashboard {
+    width: 100%; /* Chiều rộng 100% */
+    display: flex;
+    justify-content: space-between; /* Căn đều hai thẻ */
+    gap: 20px;
+
+    .dashboard-card {
+      flex: 0 0 calc(50% - 10px); /* Mỗi thẻ chiếm 50% trừ đi khoảng cách */
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100px;
+
+      span {
+        font-size: 16px;
+        color: #6c757d;
+      }
+
+      h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0;
+      }
+    }
+  }
+
+  .titlte-hocky {
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+  }
+}

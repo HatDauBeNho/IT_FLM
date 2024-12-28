@@ -1,0 +1,69 @@
+.title-statistic-detail {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  padding-top: 16px;
+  padding-bottom: 10px;
+  color: #00af98;
+}
+.tab-statistic-software {
+  height: calc(100% - 30px);
+  max-height: calc(100% - 30px);
+  background: #252c48;
+  border: 20px solid #1b203e;
+  margin-top: 53px;
+}
+
+.padding-statistic-software {
+  padding-left: 41px;
+  padding-right: 20px;
+}
+
+.div-center {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Select-Permission {
+  font-size: 17px;
+  font-weight: 400;
+  color: #000000 !important;
+  background-color: rgb(249, 249, 249) !important;
+  border: 1px solid rgba(0, 0, 0, 0.6) !important;
+  border-radius: 5rem !important;
+  width: 200px !important;
+  padding: 0.2rem 2.25rem 0.2rem 1.25rem !important;
+  box-shadow: none !important;
+  height: 30px;
+  margin-left: 500px;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px;
+  margin-right: 60px;
+}
+
+.table-responsive {
+  padding-top: 100px;
+}
+.title-statistic-software {
+  display: flex;
+  align-items: center;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.07px;
+  text-align: left;
+  align-items: center;
+  padding-right: 46px;
+  // width: 126px !important;
+  color: rgba(255, 255, 255, 0.6);
+}
+.type-right {
+  margin-left: 36px;
+}
+.mt-custom {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  position: absolute;
+}
